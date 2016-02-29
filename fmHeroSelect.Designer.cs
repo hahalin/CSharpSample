@@ -53,7 +53,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(867, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 28);
+            this.label1.Size = new System.Drawing.Size(213, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "載入英雄清單";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -67,7 +67,7 @@
             this.lbslogan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lbslogan.Location = new System.Drawing.Point(541, 541);
             this.lbslogan.Name = "lbslogan";
-            this.lbslogan.Size = new System.Drawing.Size(33, 33);
+            this.lbslogan.Size = new System.Drawing.Size(37, 40);
             this.lbslogan.TabIndex = 1;
             this.lbslogan.Text = "  ";
             this.lbslogan.Click += new System.EventHandler(this.lbslogan_Click);
@@ -79,7 +79,7 @@
             this.rdpower.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.rdpower.Location = new System.Drawing.Point(115, 120);
             this.rdpower.Name = "rdpower";
-            this.rdpower.Size = new System.Drawing.Size(89, 32);
+            this.rdpower.Size = new System.Drawing.Size(106, 37);
             this.rdpower.TabIndex = 2;
             this.rdpower.TabStop = true;
             this.rdpower.Text = "力量";
@@ -92,7 +92,7 @@
             this.rdmagic.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.rdmagic.Location = new System.Drawing.Point(230, 120);
             this.rdmagic.Name = "rdmagic";
-            this.rdmagic.Size = new System.Drawing.Size(89, 32);
+            this.rdmagic.Size = new System.Drawing.Size(106, 37);
             this.rdmagic.TabIndex = 3;
             this.rdmagic.TabStop = true;
             this.rdmagic.Text = "魔法";
@@ -105,7 +105,7 @@
             this.rdiq.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.rdiq.Location = new System.Drawing.Point(356, 120);
             this.rdiq.Name = "rdiq";
-            this.rdiq.Size = new System.Drawing.Size(89, 32);
+            this.rdiq.Size = new System.Drawing.Size(106, 37);
             this.rdiq.TabIndex = 4;
             this.rdiq.TabStop = true;
             this.rdiq.Text = "智力";
@@ -118,7 +118,7 @@
             this.rdfly.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.rdfly.Location = new System.Drawing.Point(474, 120);
             this.rdfly.Name = "rdfly";
-            this.rdfly.Size = new System.Drawing.Size(89, 32);
+            this.rdfly.Size = new System.Drawing.Size(106, 37);
             this.rdfly.TabIndex = 5;
             this.rdfly.TabStop = true;
             this.rdfly.Text = "飛行";
@@ -126,11 +126,13 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(409, 237);
+            this.pictureBox1.Location = new System.Drawing.Point(419, 225);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(661, 497);
+            this.pictureBox1.Size = new System.Drawing.Size(700, 441);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -142,19 +144,21 @@
             this.lbname.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lbname.Location = new System.Drawing.Point(460, 189);
             this.lbname.Name = "lbname";
-            this.lbname.Size = new System.Drawing.Size(124, 28);
+            this.lbname.Size = new System.Drawing.Size(147, 33);
             this.lbname.TabIndex = 7;
             this.lbname.Text = "選擇英雄";
             // 
             // listBox1
             // 
+            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.listBox1.BackColor = System.Drawing.Color.Navy;
             this.listBox1.ForeColor = System.Drawing.Color.White;
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 27;
+            this.listBox1.ItemHeight = 32;
             this.listBox1.Location = new System.Drawing.Point(47, 179);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(329, 544);
+            this.listBox1.Size = new System.Drawing.Size(336, 484);
             this.listBox1.TabIndex = 8;
             this.listBox1.Click += new System.EventHandler(this.listBox1_Click);
             // 
@@ -187,7 +191,7 @@
             this.rdwest.AutoSize = true;
             this.rdwest.Location = new System.Drawing.Point(172, 30);
             this.rdwest.Name = "rdwest";
-            this.rdwest.Size = new System.Drawing.Size(89, 32);
+            this.rdwest.Size = new System.Drawing.Size(106, 37);
             this.rdwest.TabIndex = 16;
             this.rdwest.TabStop = true;
             this.rdwest.Text = "西方";
@@ -198,7 +202,7 @@
             this.rdeast.AutoSize = true;
             this.rdeast.Location = new System.Drawing.Point(26, 30);
             this.rdeast.Name = "rdeast";
-            this.rdeast.Size = new System.Drawing.Size(89, 32);
+            this.rdeast.Size = new System.Drawing.Size(106, 37);
             this.rdeast.TabIndex = 15;
             this.rdeast.TabStop = true;
             this.rdeast.Text = "東方";
@@ -206,11 +210,11 @@
             // 
             // fmHeroSelect
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 27F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::acerclass.Properties.Resources.game_eve_online_exodus_02_1600x1200;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1121, 767);
+            this.ClientSize = new System.Drawing.Size(1167, 693);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
@@ -226,6 +230,7 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "fmHeroSelect";
             this.Text = "選取英雄";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

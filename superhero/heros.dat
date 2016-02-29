@@ -1,0 +1,151 @@
+{
+  "data": [
+    {
+      "cname": "鋼鐵人",
+      "ename": "IronMan",
+      "slogan": "genius billionaire playboy philanthropist",
+      "abilities": [
+        {
+          "ability": "Fly"
+        },
+        {
+          "ability": "IQ"
+        },
+        {
+          "ability": "Magic"
+        },
+        {
+          "ability": "Power"
+        }
+      ],
+      "group": "west",
+      "photoFilename": "C:\\superhero\\west\\ironman.jpg"
+    },
+    {
+      "cname": "美國隊長",
+      "ename": "American Capital",
+      "slogan": "Go!Go!Go!",
+      "abilities": [
+        {
+          "ability": "IQ"
+        },
+        {
+          "ability": "Magic"
+        },
+        {
+          "ability": "Power"
+        }
+      ],
+      "group": "west",
+      "photoFilename": "C:\\superhero\\west\\captain-america.jpg"
+    },
+    {
+      "cname": "蜘蛛人",
+      "ename": "SpiderMan",
+      "slogan": "with the great power comes great responsibility",
+      "abilities": [
+        {
+          "ability": "Fly"
+        },
+        {
+          "ability": "IQ"
+        },
+        {
+          "ability": "Magic"
+        }
+      ],
+      "group": "west",
+      "photoFilename": "C:\\superhero\\west\\spiderman.jpg"
+    },
+    {
+      "cname": "雷神索爾",
+      "ename": "Thor",
+      "slogan": "I wil be back!",
+      "abilities": [
+        {
+          "ability": "Magic"
+        },
+        {
+          "ability": "Power"
+        }
+      ],
+      "group": "west",
+      "photoFilename": "C:\\superhero\\west\\thor.jpg"
+    },
+    {
+      "cname": "三太子",
+      "ename": "SomeTimes",
+      "slogan": "嗶!嗶!嗶嗶嗶!!!",
+      "abilities": [
+        {
+          "ability": "Fly"
+        },
+        {
+          "ability": "IQ"
+        },
+        {
+          "ability": "Magic"
+        },
+        {
+          "ability": "Power"
+        }
+      ],
+      "group": "east",
+      "photoFilename": "C:\\superhero\\east\\sometimes.jpg"
+    },
+    {
+      "cname": "達摩",
+      "ename": "DaMo",
+      "slogan": "路行跨水復逢春，獨自淒淒暗渡江。\r\n日下可憐雙象馬，二株嫩桂久昌昌",
+      "abilities": [
+        {
+          "ability": "IQ"
+        },
+        {
+          "ability": "Magic"
+        },
+        {
+          "ability": "Power"
+        }
+      ],
+      "group": "east",
+      "photoFilename": "C:\\superhero\\east\\damo.jpg"
+    },
+    {
+      "cname": "孔明",
+      "ename": "KoMing",
+      "slogan": "你過時了",
+      "abilities": [
+        {
+          "ability": "IQ"
+        },
+        {
+          "ability": "Magic"
+        }
+      ],
+      "group": "east",
+      "photoFilename": "C:\\superhero\\east\\孔明.jpg"
+    },
+    {
+      "cname": "孫悟空",
+      "ename": "SuperMonkey",
+      "slogan": "老孫駕到!!!",
+      "abilities": [
+        {
+          "ability": "Fly"
+        },
+        {
+          "ability": "IQ"
+        },
+        {
+          "ability": "Magic"
+        },
+        {
+          "ability": "Power"
+        }
+      ],
+      "group": "east",
+      "photoFilename": "C:\\superhero\\east\\wukong.jpg"
+    }
+  ]
+}
