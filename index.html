@@ -56,6 +56,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
+                        <!--
                         <li>
                             <a href="#about">About</a>
                         </li>
@@ -65,6 +66,7 @@
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
+                        -->
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -115,7 +117,9 @@
                         </p>
                     </div>
                     <div class="col-lg-6 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="img/B100101.png" alt="">
+                       
+                            <img class="img-responsive thumbnail" idx=1 src="img/B100101.png" alt=""></img>
+                       
                     </div>
                 </div>
             </div>
@@ -128,8 +132,15 @@
                     <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                         <hr class="section-heading-spacer">
                         <div class="clearfix"></div>
-                        <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                        <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                        <h2 class="section-heading">涵蓋豐富學習內容</h2>
+                        <p class="lead">透過這個主題，可以學習到
+                            <ul>
+                                <li>物件的建立與屬性的存取</li>
+                                <li>檔案存取</li>
+                                <li>JSON物件的序列化與還原</li>
+                                <li>LINQ的使用與Lamba語法</li>
+                            </ul>
+                        </p>
                     </div>
                     <div class="col-lg-6 col-sm-pull-6  col-sm-6">
                         
@@ -152,23 +163,31 @@
                             <div class="carousel-inner">
                                 
                                     <div class="item active" >
-                                         <img class="img-responsive" src="img/B100102.png" alt="">
+                                        
+                                             <img class="img-responsive thumbnail" idx=2 src="img/B100102.png" alt="" /> 
+                                        
                                     </div>
                                 
                                     <div class="item">
-                                         <img class="img-responsive" src="img/B100103.png" alt="">
+                                        
+                                         <img class="img-responsive thumbnail"  idx=3 src="img/B100103.png" alt="" />
+                                        
                                     </div>
                                     <div class="item">
-                                         <img class="img-responsive" src="img/B100104.png" alt="">
+                                        
+                                         <img class="img-responsive thumbnail" idx=4 src="img/B100104.png" alt="" />
+                                        
                                     </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             <!-- /.container -->
         </div>
         <!-- /.content-section-b -->
+        <!--
         <div class="content-section-a">
             <div class="container">
                 <div class="row">
@@ -183,17 +202,19 @@
                     </div>
                 </div>
             </div>
-            <!-- /.container -->
+            
         </div>
+        -->
         <!-- /.content-section-a -->
         <a  name="contact"></a>
         <div class="banner">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h2>Connect to Start Bootstrap:</h2>
+                        <h2></h2>
                     </div>
                     <div class="col-lg-6">
+                        <!--
                         <ul class="list-inline banner-social-buttons">
                             <li>
                                 <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
@@ -205,6 +226,7 @@
                                 <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                             </li>
                         </ul>
+                        -->
                     </div>
                 </div>
             </div>
@@ -216,6 +238,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
+                        <!--
                         <ul class="list-inline">
                             <li>
                                 <a href="#">Home</a>
@@ -233,14 +256,67 @@
                                 <a href="#contact">Contact</a>
                             </li>
                         </ul>
-                        <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                        -->
+                        <p class="copyright text-muted small">Copyright &copy; BuddaHeart Soft 2016. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
         </footer>
+        <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <h3 class="modal-title"></h3>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+            <div class="modal-footer">
+                <div class="text-center">
+                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+           </div>
+          </div>
+        </div>
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
+
+
+        <style>
+            @media (min-width: 992px)
+            {
+                .modal-lg
+                {
+                    width: 800px;
+                    height: 600px; /* control height here */
+                }
+            }
+            .thumbnail 
+            {
+                cursor:pointer;                
+                margin-bottom:6px;
+            }
+            
+        </style>
+
+        <script type="text/JavaScript">
+           $(document).ready(function() {
+                console.log('ready');
+                
+                $('.thumbnail').click(function(){
+                    console.log('thumbnail click');
+                    $('.modal-body').empty();
+                    var title = $(this).parent('a').attr("title");
+                    //$('.modal-title').html(title);
+                    $($(this).parents('div').html()).appendTo('.modal-body');
+                    $('#myModal').modal({show:true});
+                });
+                
+            });
+        </script>
     </body>
 </html>
